@@ -1,8 +1,8 @@
 mkdir -p data
 cd data
 wget http://www.robots.ox.ac.uk/~vgg/research/FontAdaptor20/FontSynth_v1.1.tar
-tar -xvf FontSynth.tar
-rm FontSynth.tar
+tar -xvf FontSynth_v1.1.tar
+rm FontSynth_v1.1.tar
 mkdir -p omniglot-py
 cd omniglot-py
 wget https://github.com/brendenlake/omniglot/raw/master/python/images_background.zip
