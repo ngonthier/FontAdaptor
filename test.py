@@ -155,7 +155,7 @@ def main():
 				cers += cer 
 				wers += wer
 
-			font_summary = 'font: %s CER: %.1f  WER: %.1f' %(test_font,np.mean(cer_font)*100,np.mean(cer_font)*100)
+			font_summary = 'font: %s CER: %.1f  WER: %.1f' %(test_font,np.mean(cer_font)*100,np.mean(wer_font)*100)
 
 			print(font_summary)
 			font_logs.append(font_summary)
